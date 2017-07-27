@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ControllerRestService" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-07-26T18:48:21" hostname="YULM00571460A" time="3.558">
+  <properties/>
+  <testcase name="createStockLevel" classname="ControllerRestService" time="0.617"/>
+  <testcase name="getAllStockAdjustmentReasons" classname="ControllerRestService" time="2.536"/>
+  <testcase name="getWarehouseById" classname="ControllerRestService" time="0.404"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://localhost:9002/warehousingwebservices/stocklevels/adjustment-reasons/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2017 18:48:23 GMT
+
+{
+    "reasons": [
+        "WASTAGE",
+        "SHRINKAGE",
+        "INCREASE"
+    ]
+}
+Request method:	GET
+Request URI:	https://localhost:9002/warehousingwebservices/warehouses/Nakano/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2017 18:48:24 GMT
+
+{
+    "code": "Nakano",
+    "isDefault": false,
+    "pointsOfServices": [
+        {
+            "address": {
+                "country": {
+                    "isocode": "JP",
+                    "name": "Japan"
+                },
+                "defaultAddress": false,
+                "formattedAddress": "Waseda Dori, 13, Tokio",
+                "id": "8796097118231",
+                "line1": "Waseda Dori",
+                "line2": "13",
+                "phone": "+81 1988 3600",
+                "shippingAddress": false,
+                "town": "Tokio",
+                "visibleInAddressBook": true
+            },
+            "displayName": "Nakano",
+            "geoPoint": {
+                "latitude": 35.7091,
+                "longitude": 139.6732
+            },
+            "name": "Nakano",
+            "openingHours": {
+                "code": "electronics-japan-standard-hours",
+                "weekDayOpeningList": [
+                    {
+                        "closed": true,
+                        "weekDay": "Sun"
+                    },
+                    {
+                        "closed": false,
+                        "weekDay": "Mon"
+                    },
+                    {
+                        "closed": false,
+                        "weekDay": "Tue"
+                    },
+                    {
+                        "closed": false,
+                        "weekDay": "Wed"
+                    },
+                    {
+                        "closed": false,
+                        "weekDay": "Thu"
+                    },
+                    {
+                        "closed": false,
+                        "weekDay": "Fri"
+                    },
+                    {
+                        "closed": false,
+                        "weekDay": "Sat"
+                    }
+                ]
+            },
+            "warehouseCodes": [
+                "Nakano",
+                "external_Nakano_warehouse",
+                "warehouse_s",
+                "warehouse_n",
+                "warehouse_w",
+                "warehouse_e"
+            ]
+        }
+    ],
+    "url": "/warehousingwebservices/warehouses/Nakano"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ControllerIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ControllerIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; ControllerIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.554s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testWithPortAndPath</td>
+<td>2.554s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	GET
+Request URI:	https://localhost:9002/warehousingwebservices/warehouses/Nakano/?id=Nakano
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	id=Nakano
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 25 Jul 2017 21:40:40 GMT
+
+{
+    &quot;code&quot;: &quot;Nakano&quot;,
+    &quot;isDefault&quot;: false,
+    &quot;pointsOfServices&quot;: [
+        {
+            &quot;address&quot;: {
+                &quot;country&quot;: {
+                    &quot;isocode&quot;: &quot;JP&quot;,
+                    &quot;name&quot;: &quot;Japan&quot;
+                },
+                &quot;defaultAddress&quot;: false,
+                &quot;formattedAddress&quot;: &quot;Waseda Dori, 13, Tokio&quot;,
+                &quot;id&quot;: &quot;8796097118231&quot;,
+                &quot;line1&quot;: &quot;Waseda Dori&quot;,
+                &quot;line2&quot;: &quot;13&quot;,
+                &quot;phone&quot;: &quot;+81 1988 3600&quot;,
+                &quot;shippingAddress&quot;: false,
+                &quot;town&quot;: &quot;Tokio&quot;,
+                &quot;visibleInAddressBook&quot;: true
+            },
+            &quot;displayName&quot;: &quot;Nakano&quot;,
+            &quot;geoPoint&quot;: {
+                &quot;latitude&quot;: 35.7091,
+                &quot;longitude&quot;: 139.6732
+            },
+            &quot;name&quot;: &quot;Nakano&quot;,
+            &quot;openingHours&quot;: {
+                &quot;code&quot;: &quot;electronics-japan-standard-hours&quot;,
+                &quot;weekDayOpeningList&quot;: [
+                    {
+                        &quot;closed&quot;: true,
+                        &quot;weekDay&quot;: &quot;Sun&quot;
+                    },
+                    {
+                        &quot;closed&quot;: false,
+                        &quot;weekDay&quot;: &quot;Mon&quot;
+                    },
+                    {
+                        &quot;closed&quot;: false,
+                        &quot;weekDay&quot;: &quot;Tue&quot;
+                    },
+                    {
+                        &quot;closed&quot;: false,
+                        &quot;weekDay&quot;: &quot;Wed&quot;
+                    },
+                    {
+                        &quot;closed&quot;: false,
+                        &quot;weekDay&quot;: &quot;Thu&quot;
+                    },
+                    {
+                        &quot;closed&quot;: false,
+                        &quot;weekDay&quot;: &quot;Fri&quot;
+                    },
+                    {
+                        &quot;closed&quot;: false,
+                        &quot;weekDay&quot;: &quot;Sat&quot;
+                    }
+                ]
+            },
+            &quot;warehouseCodes&quot;: [
+                &quot;Nakano&quot;,
+                &quot;external_Nakano_warehouse&quot;,
+                &quot;warehouse_s&quot;,
+                &quot;warehouse_n&quot;,
+                &quot;warehouse_w&quot;,
+                &quot;warehouse_e&quot;
+            ]
+        }
+    ],
+    &quot;url&quot;: &quot;/warehousingwebservices/warehouses/Nakano&quot;
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.3</a> at Jul 25, 2017 5:40:44 PM</p>
+</div>
+</div>
+</body>
+</html>
