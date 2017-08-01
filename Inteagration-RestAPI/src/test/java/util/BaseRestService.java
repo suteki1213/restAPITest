@@ -5,11 +5,11 @@ import java.util.Map;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.json.simple.JSONObject;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import static io.restassured.RestAssured.given;
 
-@Component
+@Service
 public class BaseRestService
 {
 
