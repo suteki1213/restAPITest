@@ -1,4 +1,4 @@
-package util.obj;
+package com.util.obj;
 
 import javax.annotation.Resource;
 
@@ -6,8 +6,8 @@ import java.util.HashMap;
 
 import io.restassured.response.Response;
 import org.springframework.stereotype.Component;
-import util.BaseRestService;
-import util.builder.StockLevelBuilder;
+import com.util.BaseRestService;
+import com.util.builder.StockLevelBuilder;
 
 @Component
 public class StockLevels extends AbstractItems<Response>

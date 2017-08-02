@@ -1,4 +1,4 @@
-package util.obj;
+package com.util.obj;
 
 import java.util.Collection;
 import java.util.function.Supplier;
