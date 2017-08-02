@@ -15,7 +15,7 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
 
-public class ControllerTest extends BaseContextConfiguration
+public class RestIntegrationTest extends BaseContextConfiguration
 {
 	@Resource
 	protected StockLevels stockLevels;
